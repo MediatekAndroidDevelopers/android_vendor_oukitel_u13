@@ -8,6 +8,4 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/oukitel/u13/etc,sys
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/oukitel/u13/usr,system/usr)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/oukitel/u13/xbin,system/xbin)
-
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/oukitel/u13/vendor,system/vendor)
