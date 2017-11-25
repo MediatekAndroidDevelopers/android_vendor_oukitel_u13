@@ -4,6 +4,6 @@ on property:vold.decrypt=trigger_restart_min_framework
 on property:vold.decrypt=trigger_restart_framework
     start msensord
 
-service msensord /system/bin/msensord
+service msensord /vendor/bin/msensord
     class main
     oneshot
